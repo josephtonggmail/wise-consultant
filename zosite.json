@@ -1,0 +1,15 @@
+{
+  "name": "wise-consultant",
+  "local_port": 52300,
+  "entrypoint": "bun run dev",
+  "publish": {
+    "label": "wise-consultant",
+    "type": "http",
+    "entrypoint": "bun run prod",
+    "published_port": 54761,
+    "env": {
+      "NODE_ENV": "production",
+      "ZO_CLIENT_IDENTITY_TOKEN": "none"
+    }
+  }
+}
