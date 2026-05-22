@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/home";
-import HomeEn from "./pages/home-en";
+import HomeNew from "./pages/home-new";
+import HomeEnNew from "./pages/home-en-new";
 import About from "./pages/about";
 import AboutEn from "./pages/about-en";
 import Services from "./pages/services";
@@ -21,8 +21,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/en" element={<HomeEn />} />
+        <Route path="/" element={<HomeNew />} />
+        <Route path="/en" element={<HomeEnNew />} />
         <Route path="/about" element={<About />} />
         <Route path="/en/about" element={<AboutEn />} />
         <Route path="/services" element={<Services />} />
