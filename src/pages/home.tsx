@@ -21,7 +21,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
-              <img src="/images/logo-full.png" alt="WISE" className="h-10" />
+              <img src="/images/logo-full.png" alt="WISE" className="h-12 sm:h-14" />
             </div>
             <div className="hidden md:flex items-center space-x-8">
               {NAV_LINKS.map(link => (
@@ -68,7 +68,7 @@ export default function Home() {
             <Brain size={18} />
             <span className="text-sm font-medium">神經科學 × 心理學 × 商業智慧</span>
           </div>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6 tracking-tight">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-6 tracking-tight">
             CARING · EMPOWERING<br />CONNECTING PEOPLE
           </h1>
           <p className="text-lg sm:text-xl text-white/80 mb-10 max-w-2xl mx-auto leading-relaxed">
